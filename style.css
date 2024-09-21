@@ -1,0 +1,54 @@
+
+/* *{
+    margin: 0;
+    padding: 0;
+
+} */
+button {
+    border: none;
+    background-color: none;
+}
+#prog {
+    cursor: pointer;
+}
+i{
+    font-size: 1.8rem;
+}
+
+#song-list {
+    padding: 0;
+    list-style: none;
+}
+#cont{
+    position: relative;
+    width: 360px;
+    border: 2px solid black;
+    height: 400px;
+    margin: 30px auto;
+    text-align: center;
+    background-color:rgba(181, 146, 251, 0.676);
+}
+
+#play{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+}
+
+.si {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px auto;
+    cursor: pointer;
+    width: 60%;
+}
+
+.si:hover {
+    background-color:mediumpurple;
+}
+
+#pr{
+    cursor: pointer;
+}
